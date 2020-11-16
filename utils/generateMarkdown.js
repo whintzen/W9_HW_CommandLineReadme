@@ -46,6 +46,8 @@ ${renderLicenseLink(data.license)}
 
 * [Tests](#tests)
 
+* [Links](#links)
+
 * [Questions](#questions)
 
 ## Installation
@@ -73,6 +75,8 @@ To run tests, run the following command:
 \`\`\`
 ${data.test}
 \`\`\`
+
+## Links
 
 ## Questions
 
