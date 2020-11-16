@@ -6,7 +6,7 @@
 
 ## Description 
 
-It is important to have a quality README with information about the app--what is the app for, how to use the app, 
+This project is about generating a README file dynamically
 
 ## Table of Contents 
 
@@ -20,6 +20,8 @@ It is important to have a quality README with information about the app--what is
 
 * [Tests](#tests)
 
+* [Links](#links)
+
 * [Questions](#questions)
 
 ## Installation
@@ -27,12 +29,12 @@ It is important to have a quality README with information about the app--what is
 To install necessary dependencies, run the following command:
 
 ```
-Steps required to install project and how to get the development environment running:
+npm i
 ```
 
 ## Usage
 
-go to my github
+Users can use the repo, but please do not delete any code
 
 ## License
 
@@ -40,15 +42,17 @@ This project is licensed under the MIT license.
   
 ## Contributing
 
-go to my github
+All contributions are welcome
 
 ## Tests
 
 To run tests, run the following command:
 
 ```
-The application itself can be invoked with node index.js.
+npm test
 ```
+
+## Links
 
 ## Questions
 
