@@ -41,19 +41,23 @@ To generate your own README, first run `npm install` in order to install the fol
 The application itself can be invoked with `node index.js`.
 
 ## Usage
+Users can use the repo, but please do not delete any code.
+When you run node index.js, the application uses the inquirer package to prompt you in the command line with a 
+series of questions about your GitHub and about your project.
+The application then takes your responses and uses axios to fetch your GitHub profile from the GitHub API, including 
+your GitHub profile picture (avatar) and email. From there, the application will generate markdown and a table of 
+contents for the README conditionally based on your responses to the Inquirer prompts. The README will also include the MIT License badge for your GitHub repo.
+Finally, fs.writeFile is used to generate your project's README.md file.
 
-Users can use the repo, but please do not delete any code
+Check out the [ExampleREADME.md](https://github.com/whintzen/W9_HW_CommandLineReadme/blob/master/ExampleREADME.md) in this repo as an example.
 
 ## License
-
 This project is licensed under the MIT license.
   
 ## Contributing
-
 All contributions are welcome
 
 ## Tests
-
 To run tests, run the following command:
 
 ```
@@ -61,7 +65,12 @@ npm test
 ```
 
 ## Links
-
+* Github Repository: 
+    [Github](https://github.com/whintzen/W9_HW_CommandLineReadme)
+  
+* Screencastify video: 
+    [Video](https://drive.google.com/file/d/1MhJF_NumGGp92i7tk8TFHk8bSxFO20De/view?usp=sharing)
+     
 ## Questions
 
 If you have any questions about the repo, open an issue or contact me directly at wpah@comcast.net. You can find more of my work at [whintzen](https://github.com/whintzen/).
