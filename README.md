@@ -49,7 +49,7 @@ your GitHub profile picture (avatar) and email. From there, the application will
 contents for the README conditionally based on your responses to the Inquirer prompts. The README will also include the MIT License badge for your GitHub repo.
 Finally, fs.writeFile is used to generate your project's README.md file.
 
-Check out the [ExampleREADME.md](https://github.com/whintzen/W9_HW_CommandLineReadme/blob/master/ExampleREADME.md) in this repo as an example.
+Check out the [ExampleProjectREADME.md](https://github.com/whintzen/W9_HW_CommandLineReadme/blob/master/ExampleProjectREADME.md) in this repo as an example.
 
 ## License
 This project is licensed under the MIT license.
